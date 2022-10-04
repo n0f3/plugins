@@ -21,7 +21,10 @@ dependencies:
     sdk: flutter
   path: ^1.8.0
   path_provider_platform_interface: ^2.0.0
-  win32: ">=2.1.0 <4.0.0"
+  win32:
+    git:
+      url: https://github.com/n0f3/win32
+      ref: audio
 
 dev_dependencies:
   flutter_test:
