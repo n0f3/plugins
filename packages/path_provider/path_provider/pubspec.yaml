@@ -33,7 +33,7 @@ dependencies:
   path_provider_windows:
     git:
       url: https://github.com/n0f3/plugins
-      path: packages/path_provider/path_provider/path_provider_windows
+      path: packages/path_provider/path_provider_windows
       ref: main
 
 dev_dependencies:
