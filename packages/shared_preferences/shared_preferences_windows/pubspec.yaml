@@ -21,7 +21,11 @@ dependencies:
     sdk: flutter
   path: ^1.8.0
   path_provider_platform_interface: ^2.0.0
-  path_provider_windows: ^2.0.0
+  path_provider_windows:
+    git:
+      url: https://github.com/n0f3/plugins
+      path: packages/path_provider/path_provider_windows
+      ref: main
   shared_preferences_platform_interface: ^2.0.0
 
 dev_dependencies:
